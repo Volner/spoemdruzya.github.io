@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){if(jQuery().colorbox){jQuery('a.colorbox').colorbox();}jQuery('ul.nav-tabs.shortcode a:first').tab('show');jQuery('.zo2-megamenu .navbar-nav a').click(function(){var element=jQuery(this).attr('href');jQuery('html, body').animate({scrollTop:jQuery(element).offset().top},800);});});
